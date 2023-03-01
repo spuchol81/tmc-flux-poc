@@ -1,5 +1,7 @@
 ---
 grafana:
+  service:
+    type: ClusterIP
   secret:
     type: "Opaque"
     admin_password: "Vk13YXJlMSE="
