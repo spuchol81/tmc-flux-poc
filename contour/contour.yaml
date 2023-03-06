@@ -1,5 +1,5 @@
 ---
-infrastructure_provider: azure
+infrastructure_provider: aws
 namespace: tanzu-system-ingress
 contour:
   configFileContents: {}
