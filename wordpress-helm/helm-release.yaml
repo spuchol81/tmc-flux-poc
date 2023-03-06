@@ -19,3 +19,6 @@ spec:
     wordpressUsername: admin
     wordpressPassword: "SecurePass1!"
     mariadb.auth.rootPassword: "SecurePass1!"
+    ingress.enabled: true
+    ingress.hostname: "wordpress.tanzu.aks.spuchol.me"
+    service.type: ClusterIp
