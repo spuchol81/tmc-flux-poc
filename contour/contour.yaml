@@ -1,5 +1,5 @@
 ---
-infrastructure_provider: aws
+infrastructure_provider: vsphere
 namespace: tanzu-system-ingress
 contour:
   configFileContents: {}
