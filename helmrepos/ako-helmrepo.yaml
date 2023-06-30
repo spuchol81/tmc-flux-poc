@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: ako
+  namespace: tanzu-helm-resources
+spec:
+  interval: 10m0s
+  provider: generic
+  timeout: 60s
+  url: https://projects.registry.vmware.com/chartrepo/ako
