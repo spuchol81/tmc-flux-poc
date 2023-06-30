@@ -9,7 +9,7 @@ grafana:
     storageClassName:
 ingress:
   enabled: true
-  virtual_host_fqdn: "dashboard.tanzu.eks.spuchol.me"
+  virtual_host_fqdn: "dashboard.team1.cpod-v8u1tanzu.az-fkd.cloud-garage.net"
   prefix: "/"
   servicePort: 80
 
