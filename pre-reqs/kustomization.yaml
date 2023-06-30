@@ -9,3 +9,4 @@ resources:
 - tanzu-packages-harbor-sa.yaml
 - tanzu-packages-prometheus-sa.yaml
 - tanzu-packages-external-dns-sa.yaml
+- admin-psp.yaml
