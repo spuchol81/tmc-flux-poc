@@ -1,11 +1,4 @@
 ---
-ingress:
-  enabled: true
-  virtual_host_fqdn: "prometheus.system.tanzu"
-  prometheus_prefix: "/"
-  alertmanager_prefix: "/alertmanager/"
-  prometheusServicePort: 80
-  alertmanagerServicePort: 80
 prometheus:
   pvc:
     storageClassName:

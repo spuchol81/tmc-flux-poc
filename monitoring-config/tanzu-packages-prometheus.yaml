@@ -5,8 +5,6 @@ metadata:
   name: tanzu-packages-prometheus
   namespace: tanzu-continuousdelivery-resources
 spec:
-  dependsOn:
-    - name: tanzu-packages-contour
   interval: 1m0s
   path: ./prometheus
   prune: true
