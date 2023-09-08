@@ -1,15 +1,9 @@
 ---
 grafana:
   service:
-    type: ClusterIP
+    type: NodePort
   secret:
     type: "Opaque"
     admin_password: "Vk13YXJlMSE="
   pvc:
-    storageClassName:
-ingress:
-  enabled: true
-  virtual_host_fqdn: "dashboard.team1.cpod-v8u1tanzu.az-fkd.cloud-garage.net"
-  prefix: "/"
-  servicePort: 80
-
+    storageClassName: "vsan-default-storage-policy"
